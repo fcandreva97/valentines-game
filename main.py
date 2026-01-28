@@ -72,6 +72,7 @@ st.markdown("""
         border-radius: 10px !important;
         background-color: white !important;
         font-size: 16px !important;
+        color: black;
     }
     
     .stTextInput > div > div > input:focus {
@@ -161,7 +162,7 @@ def show_image_question(question_data):
     col1, col2 = st.columns(2)
     
     with col1:
-        st.image(load_image(question_data["images"][0]), width=300)
+        st.image(load_image(question_data["images"][0]), width=350)
         if st.button(question_data["labels"][0], key=f"{st.session_state.question_index}_0", use_container_width=True):
             if question_data["answers"][0]:
                 st.session_state.answer_correct = True
@@ -170,7 +171,7 @@ def show_image_question(question_data):
             st.rerun()
 
     with col2:
-        st.image(load_image(question_data["images"][1]), width=300)
+        st.image(load_image(question_data["images"][1]), width=350)
         if st.button(question_data["labels"][1], key=f"{st.session_state.question_index}_1", use_container_width=True):
             if question_data["answers"][1]:
                 st.session_state.answer_correct = True
