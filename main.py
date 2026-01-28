@@ -114,31 +114,31 @@ if "heart_fill" not in st.session_state:
 # Define questions
 questions = [
     {
-        "prompt": "Which guy is your favorite?",
+        "prompt": "Who makes you smile the most?",
         "images": ["images/frank.jpg", "images/chalamet.jpg"],
         "labels": ["Frank💙", "Timothee Chalamet"],
         "answers": [True, False]
     },
     {
-        "prompt": "Which guy is your favorite?",
+        "prompt": "Who would you swipe right on?",
         "images": ["images/jordan.jpg", "images/frank.jpg"],
         "labels": ["Michalel B. Jordan", "Frank💙"],
         "answers": [False, True]
     },
     {
-        "prompt": "Which guy is your favorite?",
+        "prompt": "Who gives the best cuddles?",
         "images": ["images/efron.jpg", "images/frank.jpg"],
         "labels": ["Zac Efron", "Frank💙"],
         "answers": [False, True]
     },
     {
-        "prompt": "Which guy is your favorite?",
+        "prompt": "Who’s the real MVP?⚾",
         "images": ["images/frank.jpg", "images/volpe.jpg"],
         "labels": ["Frank💙", "Anthony Volpe"],
         "answers": [True, False]
     },
     {
-        "prompt": "Which guy is your favorite?",
+        "prompt": "Who’s your all-time favorite guy to laugh with? 😄💙",
         "images": ["images/sandler.jpg", "images/frank.jpg"],
         "labels": ["Adam Sandler", "Frank💙"],
         "answers": [False, True]
