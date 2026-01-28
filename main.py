@@ -79,6 +79,11 @@ st.markdown("""
         border-color: #ff69b4 !important;
         box-shadow: 0 0 10px rgba(255, 105, 180, 0.2) !important;
     }
+            
+    [data-testid="stElementToolbarButton"] {
+        display: none !important;
+    }
+            
 </style>
 """, unsafe_allow_html=True)
 
