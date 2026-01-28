@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Streamlit",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/Lib/site-packages/streamlit", 
+            "args": [
+                "run",
+                "${workspaceFolder}/main.py"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            },
+            "justMyCode": true
+        }
+    ]
+}
